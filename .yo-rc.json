@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "storeConsulGateAway",
+    "packageName": "storegate",
+    "packageFolder": "storegate",
+    "serverPort": 8120,
+    "serviceDiscoveryType": "consul",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.2",
+    "jwtSecretKey": "Yzk2NGNlYmRjNjlmMWM5ZDQ2ODgzNGNiNDg3MjRjN2ZmMmUyMmJmMTU4NDhkODA3YWYzNzhjNjAwNjk2YTlmNDFmZmNhN2UzMjBiMWYxY2Y4NjA0NmNhMzlkZTFlNTlhNjA0MzIwMWI3NGVkMjM4MmRjMmY4NjI5Yzg2MGY2YjI=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "leratc",
+  "repository-name": "storeConsulGateAway"
+}
